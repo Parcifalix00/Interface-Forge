@@ -2,7 +2,7 @@
 
 A suite of five skills for designing, implementing, and verifying software interfaces without depending on Higgsfield, a specific image provider, or a mandatory application stack.
 
-**Version 1.0.0.** Original material is MIT licensed. Validation results are documented in [VALIDATION](docs/VALIDATION.md). The v1.0 workflow was operationally verified on Windows before the final English localization. The English package passes the full deterministic test suite. Live Codex triggering with the English metadata has not been re-run yet. Real Android/iOS device tests are not included and are not reported as executed.
+**Version 1.0.0.** Original material is MIT licensed. Validation results are documented in [VALIDATION](docs/VALIDATION.md). Real Android/iOS device tests are not included and are not reported as executed.
 
 ## Start here
 
