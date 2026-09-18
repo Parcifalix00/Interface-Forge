@@ -1,0 +1,6 @@
+interface:
+  display_name: "Product UI Design"
+  short_description: "Design layouts, components, and adaptive states"
+  default_prompt: "Use $product-ui-design for the requested task, respect the project, and report only checks actually performed."
+policy:
+  allow_implicit_invocation: true

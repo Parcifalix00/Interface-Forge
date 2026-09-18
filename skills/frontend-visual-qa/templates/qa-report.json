@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "project": "TO_FILL",
+  "revision": "TO_FILL",
+  "scope": "Template to adapt BEFORE testing; not evidence of a completed verification",
+  "requirements": [
+    {
+      "id": "desktop-core",
+      "platform": "desktop",
+      "description": "Define the project-specific primary flow, layout, and input behavior",
+      "allowed_methods": [
+        "desktop-browser"
+      ]
+    },
+    {
+      "id": "android-phone-core",
+      "platform": "android-phone",
+      "description": "Define the project-specific primary flow, layout, and input behavior",
+      "allowed_methods": [
+        "physical-device",
+        "platform-simulator"
+      ]
+    },
+    {
+      "id": "android-tablet-core",
+      "platform": "android-tablet",
+      "description": "Define the project-specific primary flow, layout, and input behavior",
+      "allowed_methods": [
+        "physical-device",
+        "platform-simulator"
+      ]
+    },
+    {
+      "id": "iphone-core",
+      "platform": "iphone",
+      "description": "Define the project-specific primary flow, layout, and input behavior",
+      "allowed_methods": [
+        "physical-device",
+        "platform-simulator"
+      ]
+    },
+    {
+      "id": "ipad-core",
+      "platform": "ipad",
+      "description": "Define the project-specific primary flow, layout, and input behavior",
+      "allowed_methods": [
+        "physical-device",
+        "platform-simulator"
+      ]
+    }
+  ],
+  "results": [
+    {
+      "requirement_id": "desktop-core",
+      "platform": "desktop",
+      "status": "NOT_RUN",
+      "method": null,
+      "environment": null,
+      "evidence": [],
+      "reason": "Template not executed; define scope and environment."
+    },
+    {
+      "requirement_id": "android-phone-core",
+      "platform": "android-phone",
+      "status": "NOT_RUN",
+      "method": null,
+      "environment": null,
+      "evidence": [],
+      "reason": "Template not executed; define scope and environment."
+    },
+    {
+      "requirement_id": "android-tablet-core",
+      "platform": "android-tablet",
+      "status": "NOT_RUN",
+      "method": null,
+      "environment": null,
+      "evidence": [],
+      "reason": "Template not executed; define scope and environment."
+    },
+    {
+      "requirement_id": "iphone-core",
+      "platform": "iphone",
+      "status": "NOT_RUN",
+      "method": null,
+      "environment": null,
+      "evidence": [],
+      "reason": "Template not executed; define scope and environment."
+    },
+    {
+      "requirement_id": "ipad-core",
+      "platform": "ipad",
+      "status": "NOT_RUN",
+      "method": null,
+      "environment": null,
+      "evidence": [],
+      "reason": "Template not executed; define scope and environment."
+    }
+  ]
+}

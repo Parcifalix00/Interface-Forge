@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "project": null,
+  "assets": [],
+  "entry_contract": {
+    "id": "Stable ID",
+    "path": "Local path that actually exists",
+    "role": "Role in the UI",
+    "origin": "Verified origin",
+    "license_or_permission": "Reference for usage rights",
+    "brand_revision": "Revision or not applicable",
+    "status": "proposed | approved | superseded",
+    "approval_reference": "Explicit request/selection when approved",
+    "dimensions": "Actual dimensions",
+    "alternatives": "Produced variants",
+    "evidence": "Actual visual verification or NOT_RUN"
+  }
+}

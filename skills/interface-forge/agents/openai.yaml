@@ -1,0 +1,6 @@
+interface:
+  display_name: "Interface Forge"
+  short_description: "Orchestrate UI work with Android/iOS and visual QA"
+  default_prompt: "Use $interface-forge as the primary coordinator for creating, modifying, or reviewing the requested UI. Respect the project, load only relevant specialist skills, and report only checks actually performed."
+policy:
+  allow_implicit_invocation: true

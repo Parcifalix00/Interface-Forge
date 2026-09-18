@@ -1,0 +1,98 @@
+{
+  "package": "interface-forge",
+  "version": "1.0.0",
+  "verified_utc": "2026-09-18T17:08:42Z",
+  "build_environment": {
+    "os": "Linux",
+    "python": "3.13.5",
+    "architecture": "x86_64"
+  },
+  "unit_tests_build": {
+    "status": "PASS",
+    "run": 81,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "evidence": "unit-tests.txt",
+    "command": "python -m unittest discover -s tests -v"
+  },
+  "windows_operational": {
+    "status": "PASS_WITH_LIMITATIONS",
+    "powershell": "7.6.6",
+    "python": "3.14.7",
+    "integrity": {
+      "status": "PASS",
+      "files_checked": 97,
+      "skills_checked": 5
+    },
+    "unit_tests": {
+      "status": "PASS_WITH_SKIPS",
+      "run": 81,
+      "ok": 78,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 3,
+      "skip_reason": "Symlink tests unavailable without the required Windows privilege; verified-copy installation does not require symlinks."
+    },
+    "installer": {
+      "preview": "PASS",
+      "install": "PASS",
+      "status": "installed-pristine"
+    },
+    "codex": {
+      "discovery": "PASS",
+      "explicit_orchestration": "PASS",
+      "implicit_ui_trigger": "PASS",
+      "implicit_skills": [
+        "interface-forge",
+        "product-ui-design",
+        "frontend-visual-qa"
+      ],
+      "unneeded_skills_not_used": [
+        "visual-brand-system",
+        "creative-assets"
+      ]
+    }
+  },
+  "yaml_parse": {
+    "status": "PASS",
+    "files": 10,
+    "parser": "PyYAML 6.0.3",
+    "required_at_runtime": false
+  },
+  "not_run": [
+    {
+      "id": "powershell-wrappers",
+      "reason": "PowerShell wrappers were not executed; the direct Python path was verified on Windows."
+    },
+    {
+      "id": "full-routing-matrix",
+      "reason": "Explicit and implicit smoke tests were executed; the complete evaluation matrix was not run."
+    },
+    {
+      "id": "android-ios-devices",
+      "reason": "No tests were performed on real Android, iPhone, or iPad devices."
+    },
+    {
+      "id": "assistive-technology",
+      "reason": "No VoiceOver, TalkBack, or desktop screen-reader verification was performed."
+    }
+  ],
+  "claim_scope": "Deterministic tests apply to the English package. Windows/Codex operational evidence was observed on the pre-localization v1.0 candidate unless explicitly stated otherwise. This is not UI certification or a universal guarantee of model behavior.",
+  "static_validation": {
+    "status": "PASS",
+    "version": "1.0.0",
+    "files_checked": 97,
+    "skills_checked": 5,
+    "integrity_checked": false,
+    "errors": [],
+    "limitation": "Static checks for package-specific format, links, and contracts. Not a general YAML parser and not evidence of triggering or UI quality."
+  },
+  "language": "en",
+  "english_localization": {
+    "deterministic_tests": "PASS",
+    "windows_recheck": "NOT_RUN",
+    "codex_implicit_trigger_recheck": "NOT_RUN",
+    "note": "The earlier Windows operational run used the pre-localization v1.0 candidate. English wording can affect implicit routing, so triggering is not claimed as revalidated after translation."
+  }
+}

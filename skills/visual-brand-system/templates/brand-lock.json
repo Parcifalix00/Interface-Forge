@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "status": "draft",
+  "project": null,
+  "revision": 0,
+  "slots": {
+    "name": {
+      "revision": 0,
+      "status": "unresolved",
+      "value": null,
+      "source": null,
+      "approval_reference": null
+    },
+    "logo": {
+      "revision": 0,
+      "status": "unresolved",
+      "path": null,
+      "sha256": null,
+      "source": null,
+      "approval_reference": null
+    },
+    "palette": {
+      "revision": 0,
+      "status": "unresolved",
+      "tokens": {},
+      "approval_reference": null
+    },
+    "typography": {
+      "revision": 0,
+      "status": "unresolved",
+      "roles": {},
+      "approval_reference": null
+    }
+  },
+  "forbidden_treatments": [],
+  "derivatives": [],
+  "history": [],
+  "note": "Declarative model: no automatic state machine or invalidation engine."
+}

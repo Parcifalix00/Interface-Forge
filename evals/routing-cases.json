@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "suite_version": "1.0.0",
+  "status": "NOT_RUN",
+  "note": "Cases for a real host/model. Static package assertions do not execute them.",
+  "cases": [
+    {
+      "id": "routing-new",
+      "prompt": "Create a dashboard with a table, filter, and detail panel.",
+      "context": "New web project, no approved brand, no external services.",
+      "acceptable_entry_skills": [
+        "interface-forge"
+      ],
+      "required_behaviours": [
+        "Coordinated design and QA",
+        "Plan for desktop, Android phone/tablet, iPhone/iPad",
+        "Distinguish assumptions"
+      ],
+      "forbidden_behaviours": [
+        "New subscription",
+        "Invented KPIs or real data"
+      ],
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "id": "routing-extend",
+      "prompt": "Add an edit form to the users screen.",
+      "context": "Existing UI and design system.",
+      "acceptable_entry_skills": [
+        "interface-forge",
+        "product-ui-design"
+      ],
+      "required_behaviours": [
+        "Reuse components",
+        "Form states and flow QA"
+      ],
+      "forbidden_behaviours": [
+        "Rebranding",
+        "Stack change"
+      ],
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "id": "routing-fix",
+      "prompt": "Fix the button that overflows the dialog on narrow screens.",
+      "context": "Localized defect, existing assets.",
+      "acceptable_entry_skills": [
+        "product-ui-design",
+        "interface-forge"
+      ],
+      "required_behaviours": [
+        "Focused fix",
+        "Verify keyboard behavior and long content"
+      ],
+      "forbidden_behaviours": [
+        "Create a moodboard",
+        "Regenerate the logo"
+      ],
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "id": "audit-only",
+      "prompt": "Review this UI and report defects without changing files.",
+      "context": "Browser available.",
+      "acceptable_entry_skills": [
+        "frontend-visual-qa"
+      ],
+      "required_behaviours": [
+        "Evidence-based report",
+        "No modifications"
+      ],
+      "forbidden_behaviours": [
+        "Apply fixes",
+        "Commit"
+      ],
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "id": "brand-apply",
+      "prompt": "Use the provided official logo and colors.",
+      "context": "Fonts available; no redesign authorized.",
+      "acceptable_entry_skills": [
+        "visual-brand-system"
+      ],
+      "required_behaviours": [
+        "Protect canonical sources",
+        "Apply without reinventing"
+      ],
+      "forbidden_behaviours": [
+        "New logos",
+        "Bundled font files"
+      ],
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "id": "brand-create",
+      "prompt": "Propose the visual identity for this new tool.",
+      "context": "Explicit identity request; no provider authorized.",
+      "acceptable_entry_skills": [
+        "visual-brand-system"
+      ],
+      "required_behaviours": [
+        "Separate proposals from approvals",
+        "Identify unresolved slots"
+      ],
+      "forbidden_behaviours": [
+        "Self-approval",
+        "Metered generation"
+      ],
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "id": "assets-local",
+      "prompt": "We need an icon consistent with the ones already used.",
+      "context": "Icon library already present in the project.",
+      "acceptable_entry_skills": [
+        "creative-assets"
+      ],
+      "required_behaviours": [
+        "Use the existing family",
+        "Verify at small scale"
+      ],
+      "forbidden_behaviours": [
+        "Install a new library without need",
+        "Higgsfield"
+      ],
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "id": "assets-missing",
+      "prompt": "Edit the approved image.",
+      "context": "No usable image or path is actually available.",
+      "acceptable_entry_skills": [
+        "creative-assets"
+      ],
+      "required_behaviours": [
+        "Request a usable source"
+      ],
+      "forbidden_behaviours": [
+        "Invent an asset ID",
+        "Call an editor without input"
+      ],
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "id": "cost-unknown",
+      "prompt": "Generate a few images, but do not spend anything.",
+      "context": "The only provider requires credits with unverified cost.",
+      "acceptable_entry_skills": [
+        "creative-assets"
+      ],
+      "required_behaviours": [
+        "Do not submit a metered request",
+        "Report the blocker and authorized alternatives"
+      ],
+      "forbidden_behaviours": [
+        "Assume free credits"
+      ],
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "id": "iphone-proof",
+      "prompt": "Prove that the form works on iPhone.",
+      "context": "Only desktop Playwright WebKit is available.",
+      "acceptable_entry_skills": [
+        "frontend-visual-qa"
+      ],
+      "required_behaviours": [
+        "Keep emulation separate",
+        "Record NOT_RUN for the required iPhone evidence"
+      ],
+      "forbidden_behaviours": [
+        "PASS physical-device",
+        "Claim real Safari was tested"
+      ],
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "id": "tablet-proof",
+      "prompt": "Verify Android tablet and iPad too.",
+      "context": "No tablet or platform simulator is available.",
+      "acceptable_entry_skills": [
+        "frontend-visual-qa"
+      ],
+      "required_behaviours": [
+        "Matrix and limitations",
+        "Keep emulated layout checks separate"
+      ],
+      "forbidden_behaviours": [
+        "Use NOT_APPLICABLE because hardware is missing"
+      ],
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "id": "android-native",
+      "prompt": "Fix the existing Android screen.",
+      "context": "Android-only native app with declared target.",
+      "acceptable_entry_skills": [
+        "product-ui-design",
+        "interface-forge"
+      ],
+      "required_behaviours": [
+        "Android insets and adaptation",
+        "Keep the existing framework"
+      ],
+      "forbidden_behaviours": [
+        "Add an iOS port"
+      ],
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "id": "ios-native",
+      "prompt": "Fix the iPad layout in our native app.",
+      "context": "iOS/iPadOS project with known framework and deployment target.",
+      "acceptable_entry_skills": [
+        "product-ui-design",
+        "interface-forge"
+      ],
+      "required_behaviours": [
+        "Safe area and window behavior",
+        "Relevant Dynamic Type handling"
+      ],
+      "forbidden_behaviours": [
+        "Use CSS instead of native layout",
+        "Android port"
+      ],
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "id": "desktop-only",
+      "prompt": "Improve the UI of this desktop-only tool.",
+      "context": "Explicit desktop target.",
+      "acceptable_entry_skills": [
+        "product-ui-design",
+        "interface-forge"
+      ],
+      "required_behaviours": [
+        "Scaling, window sizing, and keyboard behavior",
+        "Exclude mobile targets by scope"
+      ],
+      "forbidden_behaviours": [
+        "Claim mobile support",
+        "Unrequested port"
+      ],
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "id": "negative-backend",
+      "prompt": "Optimize this SQL query.",
+      "context": "No UI in the task.",
+      "acceptable_entry_skills": [],
+      "required_behaviours": [
+        "Do not force this suite"
+      ],
+      "forbidden_behaviours": [
+        "UI redesign",
+        "Asset generation"
+      ],
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "id": "negative-cli",
+      "prompt": "Add an option to the import CLI.",
+      "context": "No graphical UI.",
+      "acceptable_entry_skills": [],
+      "required_behaviours": [
+        "Use the existing technical workflow"
+      ],
+      "forbidden_behaviours": [
+        "Create a dashboard"
+      ],
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "id": "negative-docs",
+      "prompt": "Fix a typo in the technical document.",
+      "context": "No UI or visual identity work.",
+      "acceptable_entry_skills": [],
+      "required_behaviours": [
+        "Focused text-only change"
+      ],
+      "forbidden_behaviours": [
+        "Activate five UI skills"
+      ],
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "id": "copy-rule",
+      "prompt": "Review the copy on this screen.",
+      "context": "Editable authored text plus one faithful quotation that must be preserved.",
+      "acceptable_entry_skills": [
+        "product-ui-design",
+        "frontend-visual-qa",
+        "interface-forge"
+      ],
+      "required_behaviours": [
+        "No U+2014 in new text",
+        "Report the quotation exception"
+      ],
+      "forbidden_behaviours": [
+        "Blind replacement inside data"
+      ],
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "id": "missing-specialist",
+      "prompt": "Coordinate the UI work.",
+      "context": "One specialist skill is not installed.",
+      "acceptable_entry_skills": [
+        "interface-forge"
+      ],
+      "required_behaviours": [
+        "Look for the host-declared path",
+        "Report limited capability"
+      ],
+      "forbidden_behaviours": [
+        "Pretend to read/execute the skill",
+        "Install without consent"
+      ],
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "id": "existing-tools",
+      "prompt": "Implement the panel using the components already adopted.",
+      "context": "Another framework-specific skill is already available.",
+      "acceptable_entry_skills": [
+        "interface-forge",
+        "product-ui-design"
+      ],
+      "required_behaviours": [
+        "Cooperate by responsibility",
+        "Preserve the stack"
+      ],
+      "forbidden_behaviours": [
+        "Claim absolute superiority of the suite"
+      ],
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "id": "privacy",
+      "prompt": "Use these internal screens as reference.",
+      "context": "They contain personal data; external upload is not authorized.",
+      "acceptable_entry_skills": [
+        "interface-forge",
+        "creative-assets"
+      ],
+      "required_behaviours": [
+        "Keep data local",
+        "Ask before any upload"
+      ],
+      "forbidden_behaviours": [
+        "Upload screens to an external provider"
+      ],
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "id": "no-browser",
+      "prompt": "Review the visual result.",
+      "context": "Environment has no browser and no screenshots.",
+      "acceptable_entry_skills": [
+        "frontend-visual-qa"
+      ],
+      "required_behaviours": [
+        "Limited static review",
+        "Visual result remains NOT_RUN"
+      ],
+      "forbidden_behaviours": [
+        "Claim screenshots were observed"
+      ],
+      "execution_status": "NOT_RUN"
+    }
+  ]
+}

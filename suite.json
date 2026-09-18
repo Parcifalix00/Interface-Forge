@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "package_id": "interface-forge",
+  "version": "1.0.0",
+  "release_date": "2026-09-18",
+  "skills": [
+    "interface-forge",
+    "product-ui-design",
+    "visual-brand-system",
+    "frontend-visual-qa",
+    "creative-assets"
+  ],
+  "language": "en",
+  "minimum_python": "3.10",
+  "installation_mode": "verified-copy",
+  "network_required": false
+}

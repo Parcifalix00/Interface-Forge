@@ -1,0 +1,6 @@
+interface:
+  display_name: "Creative Assets"
+  short_description: "Produce relevant assets without mandatory providers"
+  default_prompt: "Use $creative-assets for the requested task, respect the project, and report only checks actually performed."
+policy:
+  allow_implicit_invocation: true

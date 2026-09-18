@@ -1,0 +1,6 @@
+interface:
+  display_name: "Visual Brand System"
+  short_description: "Maintain coherent identity, tokens, and approvals"
+  default_prompt: "Use $visual-brand-system for the requested task, respect the project, and report only checks actually performed."
+policy:
+  allow_implicit_invocation: true
