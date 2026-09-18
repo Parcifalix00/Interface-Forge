@@ -4,7 +4,7 @@
 
 Extract the ZIP. The project directory is the one containing `suite.json`, `README.md`, `scripts`, and `skills`. You may rename or move it, for example to `Documents/Interface-Forge`. Do not copy only the five `SKILL.md` files. Their references, templates, metadata, and license notices are part of the package.
 
-GitHub is not required to begin. This directory can become the repository later. Nothing in the package publishes content automatically.
+GitHub is not required to begin. Nothing in the package publishes content automatically.
 
 ## 2. Check before installing
 
@@ -48,8 +48,6 @@ $interface-forge Verify that the suite is available without modifying the projec
 
 This checks discovery and file loading, not UI quality. For implicit triggering and Android/iOS cases, use [EVALUATION_PLAN](docs/EVALUATION_PLAN.md) in a disposable test directory.
 
-## 6. Publish only after validation
-
-Instructions for creating a public repository, preserving the correct author identity, and reviewing staged files are in [PUBLISH_GITHUB](docs/PUBLISH_GITHUB.md). No script in this package publishes or pushes automatically.
+## 6. Continue using the suite
 
 For installation, updates, removal, and rollback, see [INSTALL_WINDOWS](docs/INSTALL_WINDOWS.md). For results actually observed on this package, see [VALIDATION](docs/VALIDATION.md).
