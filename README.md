@@ -2,7 +2,7 @@
 
 A suite of five skills for designing, implementing, and verifying software interfaces without depending on Higgsfield, a specific image provider, or a mandatory application stack.
 
-**Version 1.0.0.** Original material is MIT licensed. Validation results are documented in [VALIDATION](docs/VALIDATION.md). Real Android/iOS device tests are not included and are not reported as executed.
+**Version 1.0.0.** Original material is MIT licensed. Real Android/iOS device tests are not included and are not reported as executed.
 
 ## Start here
 
@@ -46,14 +46,14 @@ Interface-Forge/
   scripts/            installation, integrity, and packaging tools
   tests/              offline tests for repository tools
   evals/              Codex behavior and triggering cases
-  docs/               installation, architecture, sources, validation, publishing
+  docs/               user guides, architecture, provenance, and validation
   licenses/           upstream MIT notice
   qa/                 recorded validation results for this package
 ```
 
 ## Documentation
 
-[Windows installation](docs/INSTALL_WINDOWS.md) · [Codex usage](docs/CODEX_USAGE.md) · [Architecture](docs/ARCHITECTURE.md) · [Platform baseline](contracts/platform-baseline.md) · [Model evaluation](docs/EVALUATION_PLAN.md) · [GitHub publishing](docs/PUBLISH_GITHUB.md) · [Troubleshooting and recovery](docs/TROUBLESHOOTING.md) · [Provenance](docs/PROVENANCE.md) · [Sources](docs/SOURCES.md)
+[Windows installation](docs/INSTALL_WINDOWS.md) · [Codex usage](docs/CODEX_USAGE.md) · [Architecture](docs/ARCHITECTURE.md) · [Platform baseline](contracts/platform-baseline.md) · [Troubleshooting and recovery](docs/TROUBLESHOOTING.md) · [Provenance](docs/PROVENANCE.md) · [Sources](docs/SOURCES.md)
 
 ## Declared limitations
 
